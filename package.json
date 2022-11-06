@@ -1,13 +1,30 @@
 {
-  "name": "starter-micro-api",
+  "name": "node",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "zain butt",
   "license": "ISC",
   "dependencies": {
-  }
+    "bootstrap": "^5.2.2",
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "validator": "^13.7.0",
+    "yargs": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "cors": "^2.8.5",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "proxy": "http://localhost:9000"
 }
